@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sheet App</title>
+<meta name="theme-color" content="#1F4E79">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="app.css?v=1">
+</head>
+<body>
+<header class="top"><div class="wrap toprow">
+  <button class="iconbtn" id="back" aria-label="Back" hidden>‹</button>
+  <div class="brand" id="brand">Sheet App<small id="crumb"></small></div>
+  <button class="sync" id="sync" aria-live="polite"><span class="dot" id="dot"></span><span id="syncText">Starting…</span></button>
+</div></header>
+<main class="wrap" id="app"><div class="empty">Loading…</div></main>
+<noscript><div class="wrap"><div class="empty">This app needs JavaScript turned on.</div></div></noscript>
+<script src="config.js?v=1"></script>
+<script src="app.js?v=1"></script>
+</body>
+</html>
